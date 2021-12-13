@@ -15,11 +15,11 @@
   <div class="container bg-light">
     <h1 class="display-4"> <i class="fas fa-address-book"></i> CRUD CON PHP Y MONGO DB</h1>
     <hr>
-    <a href="agregar.php" class="btn btn-dark btn-block"><i class="fas fa-user-plus"></i> Agregar persona</a>
+    <a href="agregar.php" class="btn btn-dark container-fluid mb-4"><i class="fas fa-user-plus"></i> Agregar persona</a>
     <br>
     <!-- <a href="actualizar.php" class="btn btn-outline-warning">Actualizar persona</a> -->
     <div class="table-responsive">
-      <table class="table border border-dark border-4 table-sm table-bordered">
+      <table class="table border border-dark border-4 table-sm table-bordered" id="table_index">
         <thead>
           <!-- <th>id</th> -->
           <th>Nombre</th>
